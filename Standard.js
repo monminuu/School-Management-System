@@ -1,5 +1,5 @@
 function Standard(standard, section) {
-    this.name = standard;
+    this.name = parseInt(standard);
     this.section = section;
 
     this.getName = () => { return this.name; }
@@ -7,7 +7,7 @@ function Standard(standard, section) {
     this.getSection = () => { return this.section; }
     this.setSection = (section) => { this.section = section; }
 
-    this.promote() = () => {
+    this.promote = () => {
         if (this.name === 10) {
             return -1;
         }

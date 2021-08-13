@@ -14,7 +14,7 @@ function Student(name, age, group) {
     this.getScore = () => { return this.score; }
     this.setScore = (score) => { this.score = score; }
 
-    this.promote() = () => {
+    this.promote = () => {
         let output = this.standard.promote();
         if (output === -1) {
             return -1;
