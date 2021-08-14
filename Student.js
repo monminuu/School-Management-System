@@ -13,6 +13,8 @@ function Student(name, age, group) {
     this.setStandard = (standard) => { this.standard = standard; }
     this.getScore = () => { return this.score; }
     this.setScore = (score) => { this.score = score; }
+    this.getGroup = () => { return this.group;}
+    this.setGroup = () => { return this.group; }
 
     this.promote = () => {
         let output = this.standard.promote();
@@ -21,4 +23,6 @@ function Student(name, age, group) {
         }
         return 1;
     }
+
+
 }

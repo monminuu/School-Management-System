@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/monikasingh95/School-Management-System/issues"
   },
-  "homepage": "https://github.com/monikasingh95/School-Management-System#readme"
+  "homepage": "https://github.com/monikasingh95/School-Management-System#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
