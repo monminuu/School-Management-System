@@ -4,7 +4,8 @@ function subject() {
     this.science = null;
     this.hindi = null;
     this.english = null;
-    this.sankrit = null;
+    this.sanskrit = null;
+    this.computer = null;
 
     this.getMaths = () => { return this.maths;}
     this.setMaths = (maths) => { this.maths = maths;}
@@ -21,7 +22,10 @@ function subject() {
     this.getEnglish = () => {return this.english;}
     this.setEnglish = (english) => {this.english = english;}
 
-    this.getSanskrit = () => {return this.sankrit;}
+    this.getSanskrit = () => {return this.sanskrit;}
     this.setSanskrit = (sanskrit) => {this.sanskrit = sanskrit;}
+
+    this.getComputer = () => { return this.computer;}
+    this.setComputer = (computer) => { this.computer = computer;}
 
 }
