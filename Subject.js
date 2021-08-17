@@ -1,31 +1,15 @@
-function subject() {
-    this.maths = null;
-    this.socialScience = null;
-    this.science = null;
-    this.hindi = null;
-    this.english = null;
-    this.sanskrit = null;
-    this.computer = null;
+function Subjects() {
+    this.name = null;
+    this.subjectType = null;
+    this.credit = null;
 
-    this.getMaths = () => { return this.maths;}
-    this.setMaths = (maths) => { this.maths = maths;}
+    this.getName = () => { return this.name;}
+    this.setName = (name) => { this.name = name;}
 
-    this.getSocialScience = () => { return this.socialScience;}
-    this.getSocialScience = (socialScience) => { this.socialScience = socialScience;}
+    this.getSubjectType = () => { return this.subjectType;}
+    this.setSubjectType = (subjectType) => { this.subjectType = subjectType;}
 
-    this.getScience = () => {return this.science;}
-    this.setScience = (science) => {this.science = science ;}
-
-    this.getHindi = () => {return this.hindi;}
-    this.setHindi = (hindi) => {this.hindi = hindi;}
-
-    this.getEnglish = () => {return this.english;}
-    this.setEnglish = (english) => {this.english = english;}
-
-    this.getSanskrit = () => {return this.sanskrit;}
-    this.setSanskrit = (sanskrit) => {this.sanskrit = sanskrit;}
-
-    this.getComputer = () => { return this.computer;}
-    this.setComputer = (computer) => { this.computer = computer;}
-
+    this.getCredit = () => { return this.credit;}
+    this.setCredit = (credit) => { this.credit = credit;}
 }
+

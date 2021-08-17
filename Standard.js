@@ -1,5 +1,5 @@
-function Standard(standard, section) {
-    this.name = parseInt(standard);
+function Standards(standards, section) {
+    this.name = parseInt(standards);
     this.section = section;
 
     this.getName = () => { return this.name;}

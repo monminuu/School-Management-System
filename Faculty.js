@@ -1,8 +1,8 @@
-function Faculty(name, age) {
+function Faculties(name, age) {
     this.name = name;
     this.age = age;
     this.phoneNumber = null;
-    this.department = null;
+    this.departments = null;
 
     this.getName = () => {return this.name;}
     this.setName = (name) => { this.name = name;}
@@ -13,7 +13,7 @@ function Faculty(name, age) {
     this.getPhoneNumber = () => { return this.phoneNumber;}
     this.setPhoneNumber = (phoneNumber) => { this.phoneNumber = phoneNumber;}
 
-    this.getDepartment = () => { return this.department;}
-    this.setDepartment = (department) => { this.department = department;}
+    this.getDepartments = () => { return this.departments;}
+    this.setDepartments = (departments) => { this.departments = departments;}
 
 }
