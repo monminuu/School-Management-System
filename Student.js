@@ -1,9 +1,9 @@
-function Students(name, age, group) {
+function Student(name, age, group) {
     this.name = name;
     this.age = age;
     this.group = group;
     this.standards = null;
-    this.score = null;
+    this.marks = null;
 
     this.getName = () => { return this.name; }
     this.setName = (name) => { this.name = name; }
@@ -14,8 +14,8 @@ function Students(name, age, group) {
     this.getStandards = () => { return this.standards; }
     this.setStandards = (standards) => { this.standards = standards; }
 
-    this.getScore = () => { return this.score; }
-    this.setScore = (score) => { this.score = score; }
+    this.getMarks = () => { return this.marks; }
+    this.setMarks = (marks) => { this.marks = marks; }
 
     this.getGroup = () => { return this.group;}
     this.setGroup = (group) => { this.group = group; }

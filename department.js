@@ -1,4 +1,4 @@
-function Departments() {
+function Department() {
     this.name = null;
 
     this.getName = () => { return this.name;}

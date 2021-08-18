@@ -1,4 +1,4 @@
-function Faculties(name, age) {
+function Faculty(name, age) {
     this.name = name;
     this.age = age;
     this.phoneNumber = null;

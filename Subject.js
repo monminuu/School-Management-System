@@ -1,4 +1,4 @@
-function Subjects() {
+function Subject() {
     this.name = null;
     this.subjectType = null;
     this.credit = null;
